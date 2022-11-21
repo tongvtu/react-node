@@ -1,0 +1,15 @@
+.table {
+  border: none;
+  width: 100%;
+}
+.dashboard_table{
+  width: 100%;
+}
+.device{
+  width: 100%;
+}
+@media only screen and (max-width: 424px) {
+  .dashboard_table{
+    display: none;
+  }
+}

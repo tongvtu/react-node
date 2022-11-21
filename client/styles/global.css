@@ -1,0 +1,112 @@
+html,
+body {
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+.content {
+  margin: 0;
+}
+a {
+  color: #0070f3;
+  text-decoration: none;
+
+}
+
+a:hover {
+  color: #f28e19;
+}
+a:active {
+  color: black;
+}
+.active{
+  color: red;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+button {
+  width: 150px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f28e19;
+  color: #f1ede8;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 5px;
+  box-shadow: 0 3px 2px -2px grey;
+
+}
+button:hover {
+  background-color: #cca87f;
+}
+button:active {
+  background-color: #ca4d27;
+}
+
+input:focus::placeholder{
+  color: transparent;
+
+}
+
+input{
+  padding:0 10px;
+  box-shadow: 0 2px 3px -1px grey;
+
+}
+table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: -5px 5px 5px 10px rgba(0, 0, 0, 0.15);}
+
+thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+th {
+  padding: 12px 15px;
+  text-align: left;
+
+}
+td {
+  padding: 12px 15px;
+}
+tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+
+tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+span {
+  color: #f5f5f5;
+}
